@@ -18,7 +18,7 @@ export default async function HomePage({ params }: HomePageProps) {
     <div className="px-4 pb-10 md:px-8">
       <section className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[1.22fr_0.78fr]">
         <div className="glass-card rounded-[36px] p-6 md:p-10">
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/6 px-4 py-2 text-xs uppercase tracking-[0.18em] text-white/70">
+          <div className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/4 px-4 py-2 text-xs uppercase tracking-[0.18em] text-black/65">
             <Sparkles className="size-4" />
             {t.heroEyebrow}
           </div>
@@ -31,14 +31,14 @@ export default async function HomePage({ params }: HomePageProps) {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href={`/${locale}/cases`}
-              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm text-[#090b10]"
+              className="inline-flex items-center gap-2 rounded-full bg-[var(--color-ink)] px-5 py-3 text-sm text-white"
             >
               {t.heroPrimary}
               <ArrowRight className="size-4" />
             </Link>
             <Link
               href={`/${locale}/admin`}
-              className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/6 px-5 py-3 text-sm text-white/88"
+              className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-5 py-3 text-sm text-black/82"
             >
               <Wand2 className="size-4" />
               {t.heroSecondary}
@@ -50,8 +50,8 @@ export default async function HomePage({ params }: HomePageProps) {
           {t.stats.map((item, index) => (
             <div
               key={item.label}
-              className={`rounded-[32px] border border-white/8 p-6 shadow-[0_18px_40px_rgba(0,0,0,0.24)] ${
-                index === 0 ? "bg-[#111319]" : index === 1 ? "bg-[#131723]" : "bg-[#10141b]"
+              className={`rounded-[32px] border border-black/8 p-6 shadow-[0_18px_40px_rgba(0,0,0,0.05)] ${
+                index === 0 ? "bg-white" : index === 1 ? "bg-[var(--color-lilac)]" : "bg-[var(--color-mint)]"
               }`}
             >
               <div className="text-sm text-[var(--color-muted)]">{item.label}</div>

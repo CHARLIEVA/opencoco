@@ -75,7 +75,7 @@ export function AuthControls({ locale, labels }: AuthControlsProps) {
     return (
       <Link
         href={`/${locale}/favorites`}
-        className="glass-card inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm text-[var(--color-muted)] hover:text-white"
+        className="glass-card inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm text-[var(--color-muted)] hover:text-black"
       >
         <Star className="size-4" />
         {labels.favorites}
@@ -87,7 +87,7 @@ export function AuthControls({ locale, labels }: AuthControlsProps) {
     <div className="flex items-center gap-2">
       <Link
         href={`/${locale}/favorites`}
-        className="glass-card inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm text-[var(--color-muted)] hover:text-white"
+        className="glass-card inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm text-[var(--color-muted)] hover:text-black"
       >
         <Star className="size-4" />
         {labels.favorites}
@@ -96,7 +96,7 @@ export function AuthControls({ locale, labels }: AuthControlsProps) {
         <button
           type="button"
           onClick={signOut}
-          className="glass-card rounded-full px-4 py-2 text-sm text-[var(--color-muted)] hover:text-white"
+          className="glass-card rounded-full px-4 py-2 text-sm text-[var(--color-muted)] hover:text-black"
         >
           {email}
         </button>
@@ -104,7 +104,7 @@ export function AuthControls({ locale, labels }: AuthControlsProps) {
         <button
           type="button"
           onClick={signIn}
-          className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm text-[#0c0f14]"
+          className="inline-flex items-center gap-2 rounded-full bg-[var(--color-ink)] px-4 py-2 text-sm text-white"
         >
           <Sparkles className="size-4" />
           Google
