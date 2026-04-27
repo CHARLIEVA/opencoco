@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --color-surface: #fff8f4;
-  --color-card: rgba(255, 255, 255, 0.82);
-  --color-card-strong: #ffffff;
-  --color-ink: #1f1720;
-  --color-muted: #665b68;
-  --color-line: rgba(77, 56, 69, 0.1);
-  --color-accent: #ff7f5c;
-  --color-accent-soft: #ffd7cd;
-  --color-sun: #ffd8a8;
-  --color-lilac: #e5dcff;
-  --color-mint: #d7f6e8;
+  --color-surface: #08090c;
+  --color-card: rgba(17, 19, 25, 0.82);
+  --color-card-strong: #111319;
+  --color-ink: #f5f7fb;
+  --color-muted: #9ca3b2;
+  --color-line: rgba(255, 255, 255, 0.08);
+  --color-accent: #f5f7fb;
+  --color-accent-soft: rgba(255, 255, 255, 0.08);
+  --color-sun: #d6d9e1;
+  --color-lilac: #171b25;
+  --color-mint: #11151d;
 }
 
 @theme inline {
@@ -33,9 +33,9 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(255, 127, 92, 0.15), transparent 30%),
-    radial-gradient(circle at 85% 10%, rgba(229, 220, 255, 0.6), transparent 28%),
-    linear-gradient(180deg, #fffaf6 0%, #fff5f0 48%, #fffaf8 100%);
+    radial-gradient(circle at top left, rgba(86, 98, 138, 0.18), transparent 26%),
+    radial-gradient(circle at 82% 0%, rgba(255, 255, 255, 0.06), transparent 22%),
+    linear-gradient(180deg, #090a0d 0%, #08090d 52%, #050608 100%);
   color: var(--color-ink);
   font-family: var(--font-sans), sans-serif;
 }
@@ -62,9 +62,9 @@ select {
 
 .glass-card {
   background: var(--color-card);
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(18px);
   border: 1px solid var(--color-line);
-  box-shadow: 0 18px 40px rgba(114, 79, 92, 0.08);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
 }
 
 .feed-grid {

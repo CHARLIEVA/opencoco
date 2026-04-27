@@ -1,5 +1,87 @@
 [
   {
+    "id": "case-afg-car-flash",
+    "slug": "luxury-car-flash-editorial",
+    "model": "gpt-image-2",
+    "title": {
+      "en": "Luxury car flash editorial portrait",
+      "zh": "豪车夜景闪光灯时尚人像"
+    },
+    "summary": {
+      "en": "A direct-flash nightlife portrait recipe built around leather texture, city reflections, and realistic skin detail.",
+      "zh": "一个围绕皮革质感、城市反光和真实皮肤细节展开的夜生活闪光灯人像案例。"
+    },
+    "prompt": {
+      "en": "Photoreal editorial portrait in the backseat of a luxury car at night. Subject reclines naturally across a black leather seat while holding a phone. Black lace-trim camisole, dark shorts, layered gold jewelry, direct on-camera flash, sharp highlight rolloff, shallow depth of field, city reflections on the windows, realistic skin texture, premium nightlife mood. Avoid body reshaping, face changes, plastic skin, blur, bad anatomy, oversaturation, watermark, and text.",
+      "zh": "写实时尚人像，场景是夜晚豪车后座。主体自然斜倚在黑色皮革座椅上，手里拿着手机。穿黑色蕾丝边吊带、深色短裤和层叠金色首饰，使用正面机顶闪光灯，强调锐利高光过渡、浅景深、车窗城市反光、真实皮肤纹理和高级夜生活氛围。避免身形重塑、换脸、塑料皮肤、模糊、畸形、过饱和、水印和文字。"
+    },
+    "takeaways": {
+      "en": [
+        "Direct flash plus leather interior creates instant editorial tension.",
+        "Adding negative constraints keeps the body and skin from over-stylizing.",
+        "The city reflections make the image feel expensive without overcomplicating the set."
+      ],
+      "zh": [
+        "正面闪光灯和皮革车内环境能立刻制造杂志感张力。",
+        "加入负面约束可以避免人物和皮肤被过度美化。",
+        "城市反光能让画面显得昂贵，但不会把布景写得太复杂。"
+      ]
+    },
+    "tags": ["flash", "nightlife", "editorial", "portrait"],
+    "sourceName": "Public cached snippet",
+    "sourceUrl": "https://mobile.twstalker.com/AFantagirl85190",
+    "author": "AFantagirl85190",
+    "featured": true,
+    "createdAt": "2026-04-27T08:00:00.000Z",
+    "palette": {
+      "from": "#0f1217",
+      "via": "#282f39",
+      "to": "#5f6874",
+      "glow": "rgba(255, 255, 255, 0.16)"
+    }
+  },
+  {
+    "id": "case-afg-glossy-bodysuit",
+    "slug": "glossy-bodysuit-gray-editorial",
+    "model": "gpt-image-2",
+    "title": {
+      "en": "Glossy bodysuit gray-set editorial",
+      "zh": "灰色摄影棚亮面连体衣大片"
+    },
+    "summary": {
+      "en": "A minimal studio composition that uses glossy material, kneeling pose, and clean lighting to get magazine-cover energy.",
+      "zh": "通过亮面材质、跪姿和极简打光，做出杂志封面感的摄影棚案例。"
+    },
+    "prompt": {
+      "en": "Magazine-cover style editorial portrait on a minimal gray studio set. Subject kneeling with knees together and hands on the floor, wearing a light pink glossy long-sleeve bodysuit with sneakers. Bright clean studio lighting, medium-format fashion feel, polished skin texture, subtle reflections on the bodysuit, centered composition, premium beauty retouching, sharp focus. Keep anatomy realistic and the set uncluttered.",
+      "zh": "杂志封面风格的时尚人像，场景是极简灰色摄影棚。主体双膝并拢跪地，双手撑地，穿浅粉色亮面长袖连体衣和运动鞋。要求明亮干净的棚拍光线、中画幅时尚质感、细腻皮肤纹理、连体衣表面的轻微反光、居中构图、高级修图感和清晰对焦。保持人体结构自然，布景不要杂乱。"
+    },
+    "takeaways": {
+      "en": [
+        "Glossy fabric is the real hero, so the lighting description should serve the material.",
+        "A simple gray set removes distractions and lets pose geometry do the work.",
+        "This is a strong template for beauty, fashion cover, and e-commerce editorials."
+      ],
+      "zh": [
+        "亮面面料才是主角，所以灯光描述要围绕材质展开。",
+        "灰色极简布景能去掉干扰，把姿态几何感凸显出来。",
+        "这个套路很适合美妆、时尚封面和电商大片。"
+      ]
+    },
+    "tags": ["studio", "fashion", "glossy", "cover"],
+    "sourceName": "Public cached snippet",
+    "sourceUrl": "https://mobile.twstalker.com/AFantagirl85190",
+    "author": "AFantagirl85190",
+    "featured": true,
+    "createdAt": "2026-04-27T07:30:00.000Z",
+    "palette": {
+      "from": "#1a1c22",
+      "via": "#555866",
+      "to": "#c4c7d1",
+      "glow": "rgba(255, 255, 255, 0.14)"
+    }
+  },
+  {
     "id": "case-blackpink-neon",
     "slug": "blackpink-neon-editorial-lounge",
     "model": "gpt-image-2",

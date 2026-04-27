@@ -13,6 +13,11 @@ export type CoverPalette = {
   glow: string;
 };
 
+export type CaseImage = {
+  src: string;
+  alt: string;
+};
+
 export type PromptCase = {
   id: string;
   slug: string;
@@ -28,6 +33,7 @@ export type PromptCase = {
   featured: boolean;
   createdAt: string;
   palette: CoverPalette;
+  image?: CaseImage;
 };
 
 export type AdminCaseInput = {

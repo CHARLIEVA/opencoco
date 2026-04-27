@@ -15,7 +15,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
     <header className="sticky top-0 z-20 px-4 py-4 md:px-8">
       <div className="glass-card mx-auto flex max-w-6xl items-center justify-between rounded-[28px] px-4 py-3 md:px-6">
         <Link href={`/${locale}`} className="flex items-center gap-3">
-          <div className="flex size-11 items-center justify-center rounded-2xl bg-[var(--color-ink)] text-sm font-semibold text-white">
+          <div className="flex size-11 items-center justify-center rounded-2xl bg-white text-sm font-semibold text-[#0b0d12]">
             OC
           </div>
           <div>

@@ -15,11 +15,11 @@ export function CaseCard({ locale, item }: CaseCardProps) {
   const t = getCopy(locale);
 
   return (
-    <article className="feed-item mb-4 overflow-hidden rounded-[32px] bg-white p-3 shadow-[0_18px_40px_rgba(114,79,92,0.08)]">
+    <article className="feed-item mb-4 overflow-hidden rounded-[32px] border border-white/8 bg-[#111319] p-3 shadow-[0_20px_42px_rgba(0,0,0,0.28)]">
       <PromptVisual item={item} compact />
       <div className="space-y-4 p-3 pb-2">
         <div className="flex items-center justify-between">
-          <span className="rounded-full bg-[var(--color-accent-soft)] px-3 py-1 text-xs font-medium text-[#9d4329]">
+          <span className="rounded-full border border-white/10 bg-white/6 px-3 py-1 text-xs font-medium text-white/82">
             {modelLabel(item.model, locale)}
           </span>
           <span className="text-xs text-[var(--color-muted)]">{formatDate(item.createdAt, locale)}</span>
@@ -30,13 +30,13 @@ export function CaseCard({ locale, item }: CaseCardProps) {
         </div>
         <div className="flex flex-wrap gap-2">
           {item.tags.map((tag) => (
-            <span key={tag} className="rounded-full bg-[#f8f1ec] px-3 py-1 text-xs text-[var(--color-muted)]">
+            <span key={tag} className="rounded-full border border-white/8 bg-white/5 px-3 py-1 text-xs text-[var(--color-muted)]">
               #{tag}
             </span>
           ))}
         </div>
-        <div className="rounded-[24px] bg-[#fff7f2] p-4 text-sm leading-7 text-[var(--color-muted)]">
-          <div className="mb-2 inline-flex items-center gap-2 text-xs uppercase tracking-[0.16em] text-[#c2714e]">
+        <div className="rounded-[24px] border border-white/8 bg-white/4 p-4 text-sm leading-7 text-[var(--color-muted)]">
+          <div className="mb-2 inline-flex items-center gap-2 text-xs uppercase tracking-[0.16em] text-white/52">
             <Sparkles className="size-4" />
             Prompt
           </div>
@@ -54,7 +54,7 @@ export function CaseCard({ locale, item }: CaseCardProps) {
           />
           <Link
             href={`/${locale}/cases/${item.slug}`}
-            className="inline-flex items-center gap-2 rounded-full bg-[var(--color-ink)] px-4 py-2 text-sm text-white"
+            className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm text-[#0b0d12]"
           >
             {t.cards.viewCase}
             <ArrowUpRight className="size-4" />

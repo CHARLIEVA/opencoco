@@ -29,8 +29,8 @@ export function LocaleSwitcher({ locale }: LocaleSwitcherProps) {
           className={cn(
             "rounded-full px-3 py-1.5 transition",
             item === locale
-              ? "bg-[var(--color-ink)] text-white"
-              : "text-[var(--color-muted)] hover:bg-white/70",
+              ? "bg-white text-[#0c0f14]"
+              : "text-[var(--color-muted)] hover:bg-white/10 hover:text-white",
           )}
         >
           {item === "zh" ? "中" : "EN"}

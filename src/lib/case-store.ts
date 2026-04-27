@@ -1,6 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
+import { caseMedia } from "@/data/case-media";
 import { AdminCaseInput, Locale, PromptCase } from "@/lib/types";
 import {
   createSupabaseServiceRoleClient,
@@ -22,7 +23,12 @@ const sortCases = (items: PromptCase[]) =>
 const readLocalCases = async () => {
   const raw = await fs.readFile(localCasesPath, "utf8");
   const parsed = JSON.parse(raw) as PromptCase[];
-  return sortCases(parsed);
+  return sortCases(
+    parsed.map((item) => ({
+      ...item,
+      image: caseMedia[item.id] ?? item.image,
+    })),
+  );
 };
 
 const writeLocalCases = async (items: PromptCase[]) => {
