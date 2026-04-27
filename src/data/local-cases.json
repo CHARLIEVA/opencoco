@@ -1,0 +1,330 @@
+[
+  {
+    "id": "case-blackpink-neon",
+    "slug": "blackpink-neon-editorial-lounge",
+    "model": "gpt-image-2",
+    "title": {
+      "en": "Blackpink neon lounge editorial",
+      "zh": "Blackpink 霓虹休息室时尚大片"
+    },
+    "summary": {
+      "en": "A high-glam fashion composition with explicit subject placement, material detail, and lighting logic.",
+      "zh": "一个强调人物站位、材质细节和灯光逻辑的高质感时尚构图。"
+    },
+    "prompt": {
+      "en": "Ultra-detailed photoreal fashion portrait, 3:4 vertical. Two K-pop idols in a luxury lounge at night with neon blue, purple, and gold reflections. Left subject seated with soft elegant features, ruched pink latex mini dress, hoop earrings, direct confident gaze. Right subject on the armrest with long blonde hair and heavy bangs, deep purple latex dress, over-shoulder gaze. Sharp fabric sheen, realistic skin texture, rich velvet background blur, editorial composition, cinematic grading.",
+      "zh": "超精细写实时尚人像，3:4 竖图。两位韩流偶像位于夜晚奢华休息室中，使用蓝、紫、金三色霓虹反射。左侧主体坐姿，五官柔和精致，穿粉色褶皱乳胶短裙与耳环，直视镜头。右侧主体坐在扶手上，长金发厚刘海，深紫色乳胶短裙，回眸视线。强调面料高光、真实皮肤纹理、红丝绒背景虚化、大片级构图与电影感调色。"
+    },
+    "takeaways": {
+      "en": [
+        "Names exact left-right placement so the scene does not collapse into a generic duo portrait.",
+        "Uses material language like velvet and latex to force richer surface rendering.",
+        "Separates face, pose, outfit, and lighting into distinct instructions."
+      ],
+      "zh": [
+        "明确左右主体位置，避免模型只生成普通双人照。",
+        "用丝绒、乳胶等材质词，强行拉高表面质感。",
+        "把脸部、姿态、服装和光线拆开描述，更容易稳定输出。"
+      ]
+    },
+    "tags": ["fashion", "portrait", "neon", "editorial"],
+    "sourceName": "X / @youngcatwoman",
+    "sourceUrl": "https://x.com/youngcatwoman/status/2018820723662585880",
+    "author": "Alice (@youngcatwoman)",
+    "featured": true,
+    "createdAt": "2026-04-24T12:00:00.000Z",
+    "palette": {
+      "from": "#24132d",
+      "via": "#7b3c83",
+      "to": "#f6a86b",
+      "glow": "rgba(255, 133, 113, 0.42)"
+    }
+  },
+  {
+    "id": "case-framelix-ui",
+    "slug": "dark-framelix-landing-page",
+    "model": "gpt-image-2",
+    "title": {
+      "en": "Dark cinematic landing page prompt",
+      "zh": "暗黑电影感落地页提示词"
+    },
+    "summary": {
+      "en": "A UI-heavy prompt pattern that describes visual system, navigation structure, and component hierarchy.",
+      "zh": "适合 UI 生成的结构化提示词，重点描述视觉系统、导航结构和组件层级。"
+    },
+    "prompt": {
+      "en": "Create a dark-themed landing page for a cinematic motion studio called Framelix 3D. Pure black background, white type, rounded pill interface. Top navigation with logo left, three stacked columns of links in the center, custom ticket-shaped cart icon on the right. Large headline, concise supporting copy, premium reels showcase, high-contrast call-to-actions, luxurious motion-studio energy. Use React/Tailwind style composition, polished spacing, futuristic but minimal.",
+      "zh": "为名为 Framelix 3D 的电影级动态工作室生成暗黑风落地页。纯黑背景、白色字体、超圆角按钮系统。顶部导航左侧为 logo，中间三列堆叠链接，右侧为票券造型购物车图标。页面包含大标题、简洁副文案、高级 reels 展示区、高对比 CTA，整体要有高端动态工作室气质，布局干净克制但有未来感。"
+    },
+    "takeaways": {
+      "en": [
+        "UI prompts perform better when layout modules are named instead of vaguely implied.",
+        "Brand tone and component shapes are both spelled out, which helps the model lock visual rhythm.",
+        "Works well as a template for future SaaS or gallery pages."
+      ],
+      "zh": [
+        "做 UI 时，把模块名字写出来通常比只写风格更有效。",
+        "品牌调性和组件形状同时给到，模型更容易抓住节奏。",
+        "这个结构很适合后续复用到 SaaS 页面或案例站页面。"
+      ]
+    },
+    "tags": ["ui", "landing-page", "branding", "dark"],
+    "sourceName": "X / @saiho_seki",
+    "sourceUrl": "https://x.com/saiho_seki/status/2025918893643243574",
+    "author": "Seki",
+    "featured": true,
+    "createdAt": "2026-04-23T08:30:00.000Z",
+    "palette": {
+      "from": "#090909",
+      "via": "#34333c",
+      "to": "#7e7d88",
+      "glow": "rgba(255, 255, 255, 0.12)"
+    }
+  },
+  {
+    "id": "case-ref-sheet",
+    "slug": "reference-sheet-operatives",
+    "model": "gpt-image-2",
+    "title": {
+      "en": "Eight-panel character reference sheet",
+      "zh": "八宫格角色设定参考表"
+    },
+    "summary": {
+      "en": "A production-style turnaround sheet with strict panel rules, identity consistency, and no-frills background constraints.",
+      "zh": "偏制作流程风格的角色周转设定表，强调面板规则、角色一致性和干净背景。"
+    },
+    "prompt": {
+      "en": "Create a photoreal character reference sheet on a pure white background. A 29-year-old female sci-fi operative with short black hair and a silver streak, steel-blue eyes, lightly weathered face, asymmetrical graphite tactical coat, matte bodysuit, segmented forearm armor, utility belt, tactical trousers, reinforced boots. Strict eight-panel turnaround: full-body front, back, left, right; close-up head front, back, left, right. Neutral standing pose, exact side views, no labels, no shadows, highly accurate outfit and facial consistency.",
+      "zh": "创建一个纯白背景的写实角色设定参考表。角色是一位 29 岁女性科幻特工，短黑发夹银色挑染，钢蓝色眼睛，脸部略有风霜感，穿不对称石墨色战术外套、黑色连体服、分段护臂、工具腰带、战术裤和强化靴。严格八宫格：全身正面、背面、左侧、右侧；头像正面、背面、左侧、右侧。要求中性站姿、精准侧视图、无文字、无阴影，服装与脸部高度一致。"
+    },
+    "takeaways": {
+      "en": [
+        "The panel checklist makes the model behave more like a layout engine than a free-form illustrator.",
+        "Negative constraints such as no labels and no shadows prevent noisy studio artifacts.",
+        "Excellent reference pattern for IP design, game characters, and fashion lookbooks."
+      ],
+      "zh": [
+        "面板清单会让模型更像版式引擎，而不是自由发挥的插画师。",
+        "像“无标签、无阴影”这种负约束能显著减少杂乱信息。",
+        "非常适合角色 IP、游戏设定和服装 lookbook。"
+      ]
+    },
+    "tags": ["character", "reference-sheet", "consistency", "production"],
+    "sourceName": "X / @koltregaskes",
+    "sourceUrl": "https://x.com/koltregaskes/status/2041252368042672340",
+    "author": "Kol Tregaskes",
+    "featured": false,
+    "createdAt": "2026-04-21T07:45:00.000Z",
+    "palette": {
+      "from": "#dce4f2",
+      "via": "#8ba3c9",
+      "to": "#2d3446",
+      "glow": "rgba(116, 144, 199, 0.3)"
+    }
+  },
+  {
+    "id": "case-ui-module-pattern",
+    "slug": "ui-module-prompt-pattern",
+    "model": "gpt-image-2",
+    "title": {
+      "en": "Structured UI module prompt pattern",
+      "zh": "结构化 UI 模块提示词套路"
+    },
+    "summary": {
+      "en": "A reusable case distilled from GPT image2 UI prompt guidance: define goal, hierarchy, audience, and device context.",
+      "zh": "从 GPT image2 UI 提示词指南中提炼的可复用套路：先定义目标、层级、受众和设备场景。"
+    },
+    "prompt": {
+      "en": "Design a bilingual SaaS homepage mockup for an AI prompt library. Mobile-first, warm neutral palette, sticky navigation, hero with headline and preview cards, tabbed category rail, masonry feed, social-proof strip, pricing block, FAQ accordion, and compact footer. Audience is creators and marketers. Emphasize clear hierarchy, card spacing, and app-store-ready polish.",
+      "zh": "为 AI 提示词资料库设计一版中英双语 SaaS 首页 mockup。移动端优先，暖中性色调，吸顶导航，Hero 区包含标题和预览卡片，下方有分类标签栏、瀑布流案例卡、社交背书条、价格区、FAQ 手风琴和紧凑页脚。受众为创作者与营销人员。重点突出信息层级、卡片留白和可直接商用的精致感。"
+    },
+    "takeaways": {
+      "en": [
+        "This case is more about prompt structure than a single visual style.",
+        "Audience and device context are explicit, which helps prevent generic desktop-only layouts.",
+        "Useful seed pattern for OpenCoco's own future design variants."
+      ],
+      "zh": [
+        "这个案例更像结构模板，而不是单一视觉风格。",
+        "受众和设备场景写清楚后，模型不容易只吐出泛泛的桌面端页面。",
+        "也适合作为 OpenCoco 以后迭代页面时的内部模板。"
+      ]
+    },
+    "tags": ["ui", "structure", "saas", "mobile-first"],
+    "sourceName": "ChatGPT Design",
+    "sourceUrl": "https://chatgpt-design.com/en/resources/gpt-image-2-ui-prompt-examples/",
+    "author": "ChatGPT Design resource",
+    "featured": false,
+    "createdAt": "2026-04-20T09:10:00.000Z",
+    "palette": {
+      "from": "#fff1df",
+      "via": "#ffc49d",
+      "to": "#ff8e6d",
+      "glow": "rgba(255, 145, 103, 0.28)"
+    }
+  },
+  {
+    "id": "case-skull-pancake",
+    "slug": "nano-banana-skull-pancake",
+    "model": "nano-banana",
+    "title": {
+      "en": "Skull pancake with multi-edit follow-up",
+      "zh": "骷髅煎饼与多指令编辑"
+    },
+    "summary": {
+      "en": "A playful test that shows Nano Banana's strong prompt adherence and image editing precision.",
+      "zh": "一个非常适合演示 Nano Banana 指令遵循和编辑精度的趣味测试。"
+    },
+    "prompt": {
+      "en": "Create an image of a three-dimensional pancake in the shape of a skull, garnished on top with blueberries and maple syrup. Then edit the same image with all of the following changes: put a strawberry in the left eye socket, put a blackberry in the right eye socket, add a mint garnish on top, change the plate into a cookie-shaped plate, and add happy people to the background.",
+      "zh": "创建一张三维骷髅形状煎饼的图片，顶部放蓝莓并淋上枫糖浆。然后继续在同一张图上同时完成以下修改：左眼眶放草莓，右眼眶放黑莓，顶部增加薄荷装饰，把盘子换成饼干形盘子，并在背景中加入开心的人群。"
+    },
+    "takeaways": {
+      "en": [
+        "Nano Banana is especially strong when several precise edit operations are stacked together.",
+        "The base scene is absurd but physically grounded, which exposes adherence quality clearly.",
+        "Great example to teach users how to chain generation and editing."
+      ],
+      "zh": [
+        "Nano Banana 很适合同时处理多个明确的编辑动作。",
+        "底图设定虽然离谱，但物理逻辑明确，所以很容易看出模型是否真正遵循提示。",
+        "非常适合拿来教育用户如何把生成和编辑串起来。"
+      ]
+    },
+    "tags": ["editing", "food", "prompt-adherence", "fun"],
+    "sourceName": "Max Woolf blog",
+    "sourceUrl": "https://minimaxir.com/2025/11/nano-banana-prompts/",
+    "author": "Max Woolf",
+    "featured": true,
+    "createdAt": "2026-04-22T15:20:00.000Z",
+    "palette": {
+      "from": "#5d3111",
+      "via": "#b96a24",
+      "to": "#ffd382",
+      "glow": "rgba(255, 185, 80, 0.34)"
+    }
+  },
+  {
+    "id": "case-three-kittens",
+    "slug": "nano-banana-three-kittens",
+    "model": "nano-banana",
+    "title": {
+      "en": "Three kittens, three exact positions",
+      "zh": "三只小猫、三个精确位置"
+    },
+    "summary": {
+      "en": "A composition-heavy case proving the model can track multiple entities and position-specific constraints.",
+      "zh": "一个典型的构图型案例，验证模型能否同时追踪多主体和位置约束。"
+    },
+    "prompt": {
+      "en": "Create an image featuring three specific kittens in three specific positions. Each kitten must have a unique fur color and a clearly differentiated pose. One kitten sits centered in the foreground, one lies to the left in the midground, and one peeks from the right background. Include heterochromia constraints where specified and preserve clean negative space so each subject remains easy to identify.",
+      "zh": "生成一张包含三只特定小猫并位于三个明确位置的图片。每只猫都要有不同毛色和清晰区分的姿态。一只位于前景中央坐着，一只位于左侧中景躺着，另一只从右侧背景探出头。若指定异瞳要求则需准确体现，并保留干净留白，让每个主体都容易辨认。"
+    },
+    "takeaways": {
+      "en": [
+        "Position constraints become more reliable when you describe foreground, midground, and background explicitly.",
+        "Entity differentiation works better when pose and color are both varied.",
+        "A strong case for pet portraits, product lineups, and editorial collage scenes."
+      ],
+      "zh": [
+        "写清前景、中景、背景，比单纯写左右位置更稳定。",
+        "主体区分同时依赖姿态和颜色，比只改其中一个更有效。",
+        "很适合宠物、产品 lineup、拼贴海报类场景。"
+      ]
+    },
+    "tags": ["composition", "multi-subject", "pets", "control"],
+    "sourceName": "Max Woolf blog",
+    "sourceUrl": "https://minimaxir.com/2025/11/nano-banana-prompts/",
+    "author": "Max Woolf",
+    "featured": false,
+    "createdAt": "2026-04-19T10:10:00.000Z",
+    "palette": {
+      "from": "#143240",
+      "via": "#3e7184",
+      "to": "#b9ecf2",
+      "glow": "rgba(114, 201, 214, 0.34)"
+    }
+  },
+  {
+    "id": "case-fridge-magnets-code",
+    "slug": "nano-banana-fibonacci-magnets",
+    "model": "nano-banana",
+    "title": {
+      "en": "Python fridge-magnet code scene",
+      "zh": "冰箱磁贴 Python 代码场景"
+    },
+    "summary": {
+      "en": "A weird but revealing test for text rendering, syntax adherence, and camera description grounding.",
+      "zh": "一个很怪但很能测出文字渲染、语法结构和拍摄描述能力的测试。"
+    },
+    "prompt": {
+      "en": "Create an image depicting a minimal recursive Python fib() implementation using large refrigerator magnets as letters and numbers. Place the code on an expensive aged wooden table. All code characters should follow Python indentation and syntax highlighting colors as closely as possible. Top-down perspective, DSLR look, neutral diffuse lighting, sharp detail, no watermark.",
+      "zh": "创建一张图像：用大型冰箱磁贴字母和数字拼出最小递归版 Python fib() 代码。把这些代码放在一张昂贵、有岁月感的木桌上。要求尽量遵守 Python 缩进和语法高亮颜色。俯拍视角，单反质感，中性漫射光，细节清晰，不要水印。"
+    },
+    "takeaways": {
+      "en": [
+        "Using a physically plausible scene helps the model render text more believably.",
+        "The camera and lighting block prevents the result from drifting into flat infographic territory.",
+        "A good inspiration case for code posters, educational diagrams, and typography experiments."
+      ],
+      "zh": [
+        "把文字放进一个真实物理场景，比直接让模型“写字”更容易出效果。",
+        "拍摄方式和灯光说明能防止画面变成扁平的信息图。",
+        "很适合做代码海报、教学图和文字实验。"
+      ]
+    },
+    "tags": ["text-rendering", "code", "typography", "tabletop"],
+    "sourceName": "Max Woolf blog",
+    "sourceUrl": "https://minimaxir.com/2025/11/nano-banana-prompts/",
+    "author": "Max Woolf",
+    "featured": false,
+    "createdAt": "2026-04-18T11:00:00.000Z",
+    "palette": {
+      "from": "#4a2f1d",
+      "via": "#7c5c42",
+      "to": "#d8b79a",
+      "glow": "rgba(195, 146, 103, 0.26)"
+    }
+  },
+  {
+    "id": "case-boardgame-poster",
+    "slug": "nano-banana-boardgame-poster",
+    "model": "nano-banana",
+    "title": {
+      "en": "Board game poster with legible text",
+      "zh": "带可读文字的桌游海报"
+    },
+    "summary": {
+      "en": "A prompt direction centered on layout, text legibility, and structured poster composition.",
+      "zh": "一个围绕版式、文字可读性和海报构图展开的案例方向。"
+    },
+    "prompt": {
+      "en": "Create a professional board game launch poster called The Spice Route. Include a cinematic map motif, rich spice-market textures, bold central title, clear subtitle, small icon row for player count, strategy level, and play time, and a premium tabletop advertising finish. The text should remain legible, aligned, and integrated with the composition instead of floating.",
+      "zh": "创建一张专业的桌游发布海报，名字叫 The Spice Route。画面包含电影感地图母题、香料集市材质、醒目的主标题、清晰副标题，以及表示玩家人数、策略强度、游玩时间的小图标行。整体像高端桌游广告，文字必须清晰、对齐、融入构图，而不是漂浮在画面上。"
+    },
+    "takeaways": {
+      "en": [
+        "When text is important, describe alignment and integration, not only the wording.",
+        "Poster prompts benefit from clear information hierarchy like title, subtitle, and icon row.",
+        "Useful for future prompt categories like ads, posters, packaging, and event promos."
+      ],
+      "zh": [
+        "如果文字很重要，除了写内容，还要写清对齐方式和融入画面的方式。",
+        "海报类提示词很依赖标题、副标题、图标区这种信息层级。",
+        "后续可以扩展成广告、包装、活动海报等专题。"
+      ]
+    },
+    "tags": ["poster", "text", "boardgame", "layout"],
+    "sourceName": "TechRadar summary",
+    "sourceUrl": "https://www.techradar.com/ai-platforms-assistants/gemini/5-prompts-that-show-how-powerful-nano-banana-2-is",
+    "author": "TechRadar",
+    "featured": false,
+    "createdAt": "2026-04-17T13:30:00.000Z",
+    "palette": {
+      "from": "#52281c",
+      "via": "#a54c26",
+      "to": "#f0b86e",
+      "glow": "rgba(244, 170, 82, 0.32)"
+    }
+  }
+]
